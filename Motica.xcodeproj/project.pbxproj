@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A49289C21ECC01C001F1342 /* tasktableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49289B21ECC01C001F1342 /* tasktableviewcell.swift */; };
+		0AC0D8C021E9CC78006E2508 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0D8BF21E9CC78006E2508 /* CustomAlertView.swift */; };
+		0AC0D8C221E9CC8B006E2508 /* CustomAlertViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0D8C121E9CC8B006E2508 /* CustomAlertViewDelegate.swift */; };
+		0AC0D8C421E9CD53006E2508 /* UIButton+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0D8C321E9CD53006E2508 /* UIButton+Border.swift */; };
+		0AD27F9521EE123C00EC0AD2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD27F9221EE123C00EC0AD2 /* GameScene.swift */; };
+		0AD27F9621EE123C00EC0AD2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD27F9321EE123C00EC0AD2 /* GameViewController.swift */; };
+		0AD27F9721EE123C00EC0AD2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AD27F9421EE123C00EC0AD2 /* GameScene.sks */; };
+		0AD27F9921EE128A00EC0AD2 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0AD27F9821EE128A00EC0AD2 /* bird.atlas */; };
+		0AE254D821EF87DE006F9003 /* JumpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE254D621EF87DC006F9003 /* JumpScene.swift */; };
+		0AE254D921EF87DE006F9003 /* JumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE254D721EF87DD006F9003 /* JumpViewController.swift */; };
+		0E55D78721E32CEA00E27625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E55D78621E32CEA00E27625 /* AppDelegate.swift */; };
+		0E55D78921E32CEA00E27625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E55D78821E32CEA00E27625 /* ViewController.swift */; };
+		0E55D78C21E32CEA00E27625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E55D78A21E32CEA00E27625 /* Main.storyboard */; };
+		0E55D78F21E32CEA00E27625 /* Motica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E55D78D21E32CEA00E27625 /* Motica.xcdatamodeld */; };
+		0E55D79121E32CEB00E27625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E55D79021E32CEB00E27625 /* Assets.xcassets */; };
+		0E55D79421E32CEB00E27625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E55D79221E32CEB00E27625 /* LaunchScreen.storyboard */; };
+		0E6848C221E5C9ED00DCC6F3 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6848C121E5C9ED00DCC6F3 /* TaskTableViewController.swift */; };
+		0E6848C421E5DA3900DCC6F3 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6848C321E5DA3900DCC6F3 /* ChecklistItem.swift */; };
+		0E8EDB2B21EF145F00C1E5BD /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDB2721EF145F00C1E5BD /* ToastView.swift */; };
+		0E8EDB2C21EF145F00C1E5BD /* Toast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E8EDB2821EF145F00C1E5BD /* Toast.xib */; };
+		0E8EDB2D21EF145F00C1E5BD /* myView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDB2921EF145F00C1E5BD /* myView.swift */; };
+		0E8EDB2E21EF145F00C1E5BD /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDB2A21EF145F00C1E5BD /* Toast.swift */; };
+		0E8EDB3021EF179000C1E5BD /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDB2F21EF179000C1E5BD /* RewardsView.swift */; };
+		0E8EDB3221EF276C00C1E5BD /* EndGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDB3121EF276C00C1E5BD /* EndGame.swift */; };
+		0E8EDB3421EF2AA000C1E5BD /* gifBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDB3321EF2AA000C1E5BD /* gifBackground.swift */; };
+		0EF5E6DF21F837BD00613647 /* CustomEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5E6DE21F837BD00613647 /* CustomEdit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A49289B21ECC01C001F1342 /* tasktableviewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasktableviewcell.swift; sourceTree = "<group>"; };
+		0AC0D8BF21E9CC78006E2508 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		0AC0D8C121E9CC8B006E2508 /* CustomAlertViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewDelegate.swift; sourceTree = "<group>"; };
+		0AC0D8C321E9CD53006E2508 /* UIButton+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Border.swift"; sourceTree = "<group>"; };
+		0AD27F9221EE123C00EC0AD2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0AD27F9321EE123C00EC0AD2 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0AD27F9421EE123C00EC0AD2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0AD27F9821EE128A00EC0AD2 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		0AE254D621EF87DC006F9003 /* JumpScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpScene.swift; sourceTree = "<group>"; };
+		0AE254D721EF87DD006F9003 /* JumpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpViewController.swift; sourceTree = "<group>"; };
+		0E55D78321E32CEA00E27625 /* Motica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E55D78621E32CEA00E27625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E55D78821E32CEA00E27625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E55D78B21E32CEA00E27625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E55D78E21E32CEA00E27625 /* Motica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Motica.xcdatamodel; sourceTree = "<group>"; };
+		0E55D79021E32CEB00E27625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E55D79321E32CEB00E27625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E55D79521E32CEB00E27625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6848C121E5C9ED00DCC6F3 /* TaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		0E6848C321E5DA3900DCC6F3 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		0E8EDB2721EF145F00C1E5BD /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		0E8EDB2821EF145F00C1E5BD /* Toast.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Toast.xib; sourceTree = "<group>"; };
+		0E8EDB2921EF145F00C1E5BD /* myView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myView.swift; sourceTree = "<group>"; };
+		0E8EDB2A21EF145F00C1E5BD /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		0E8EDB2F21EF179000C1E5BD /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		0E8EDB3121EF276C00C1E5BD /* EndGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGame.swift; sourceTree = "<group>"; };
+		0E8EDB3321EF2AA000C1E5BD /* gifBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifBackground.swift; sourceTree = "<group>"; };
+		0EF5E6DE21F837BD00613647 /* CustomEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEdit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E55D78021E32CEA00E27625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC0D8BE21E9CC4E006E2508 /* Custom Alert */ = {
+			isa = PBXGroup;
+			children = (
+				0AC0D8BF21E9CC78006E2508 /* CustomAlertView.swift */,
+				0AC0D8C121E9CC8B006E2508 /* CustomAlertViewDelegate.swift */,
+				0EF5E6DE21F837BD00613647 /* CustomEdit.swift */,
+			);
+			path = "Custom Alert";
+			sourceTree = "<group>";
+		};
+		0E55D77A21E32CEA00E27625 = {
+			isa = PBXGroup;
+			children = (
+				0E55D78521E32CEA00E27625 /* Motica */,
+				0E55D78421E32CEA00E27625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E55D78421E32CEA00E27625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E55D78321E32CEA00E27625 /* Motica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E55D78521E32CEA00E27625 /* Motica */ = {
+			isa = PBXGroup;
+			children = (
+				0EA0223D21EF32CD004F4277 /* To-Do Tab */,
+				0EA0223C21EF326C004F4277 /* Reward Tab */,
+				0E8EDB2621EF145000C1E5BD /* Toast */,
+				0AC0D8BE21E9CC4E006E2508 /* Custom Alert */,
+				0E55D78621E32CEA00E27625 /* AppDelegate.swift */,
+				0E55D78821E32CEA00E27625 /* ViewController.swift */,
+				0E55D78A21E32CEA00E27625 /* Main.storyboard */,
+				0E55D79021E32CEB00E27625 /* Assets.xcassets */,
+				0E55D79221E32CEB00E27625 /* LaunchScreen.storyboard */,
+				0E55D79521E32CEB00E27625 /* Info.plist */,
+				0E55D78D21E32CEA00E27625 /* Motica.xcdatamodeld */,
+				0AC0D8C321E9CD53006E2508 /* UIButton+Border.swift */,
+				0E8EDB3321EF2AA000C1E5BD /* gifBackground.swift */,
+				0AD27F9821EE128A00EC0AD2 /* bird.atlas */,
+			);
+			path = Motica;
+			sourceTree = "<group>";
+		};
+		0E8EDB2621EF145000C1E5BD /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				0E8EDB2921EF145F00C1E5BD /* myView.swift */,
+				0E8EDB2A21EF145F00C1E5BD /* Toast.swift */,
+				0E8EDB2821EF145F00C1E5BD /* Toast.xib */,
+				0E8EDB2721EF145F00C1E5BD /* ToastView.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		0EA0223C21EF326C004F4277 /* Reward Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0E8EDB2F21EF179000C1E5BD /* RewardsView.swift */,
+				0AD27F9421EE123C00EC0AD2 /* GameScene.sks */,
+				0AD27F9221EE123C00EC0AD2 /* GameScene.swift */,
+				0AD27F9321EE123C00EC0AD2 /* GameViewController.swift */,
+				0E8EDB3121EF276C00C1E5BD /* EndGame.swift */,
+				0AE254D621EF87DC006F9003 /* JumpScene.swift */,
+				0AE254D721EF87DD006F9003 /* JumpViewController.swift */,
+			);
+			path = "Reward Tab";
+			sourceTree = "<group>";
+		};
+		0EA0223D21EF32CD004F4277 /* To-Do Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0E6848C121E5C9ED00DCC6F3 /* TaskTableViewController.swift */,
+				0E6848C321E5DA3900DCC6F3 /* ChecklistItem.swift */,
+				0A49289B21ECC01C001F1342 /* tasktableviewcell.swift */,
+			);
+			path = "To-Do Tab";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E55D78221E32CEA00E27625 /* Motica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E55D79821E32CEB00E27625 /* Build configuration list for PBXNativeTarget "Motica" */;
+			buildPhases = (
+				0E55D77F21E32CEA00E27625 /* Sources */,
+				0E55D78021E32CEA00E27625 /* Frameworks */,
+				0E55D78121E32CEA00E27625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Motica;
+			productName = Motica;
+			productReference = 0E55D78321E32CEA00E27625 /* Motica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E55D77B21E32CEA00E27625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Jeremy;
+				TargetAttributes = {
+					0E55D78221E32CEA00E27625 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 0E55D77E21E32CEA00E27625 /* Build configuration list for PBXProject "Motica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E55D77A21E32CEA00E27625;
+			productRefGroup = 0E55D78421E32CEA00E27625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E55D78221E32CEA00E27625 /* Motica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E55D78121E32CEA00E27625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD27F9721EE123C00EC0AD2 /* GameScene.sks in Resources */,
+				0E55D79421E32CEB00E27625 /* LaunchScreen.storyboard in Resources */,
+				0E55D79121E32CEB00E27625 /* Assets.xcassets in Resources */,
+				0E8EDB2C21EF145F00C1E5BD /* Toast.xib in Resources */,
+				0AD27F9921EE128A00EC0AD2 /* bird.atlas in Resources */,
+				0E55D78C21E32CEA00E27625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E55D77F21E32CEA00E27625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E55D78F21E32CEA00E27625 /* Motica.xcdatamodeld in Sources */,
+				0AC0D8C221E9CC8B006E2508 /* CustomAlertViewDelegate.swift in Sources */,
+				0AC0D8C421E9CD53006E2508 /* UIButton+Border.swift in Sources */,
+				0E8EDB3421EF2AA000C1E5BD /* gifBackground.swift in Sources */,
+				0EF5E6DF21F837BD00613647 /* CustomEdit.swift in Sources */,
+				0AC0D8C021E9CC78006E2508 /* CustomAlertView.swift in Sources */,
+				0E8EDB2B21EF145F00C1E5BD /* ToastView.swift in Sources */,
+				0AD27F9621EE123C00EC0AD2 /* GameViewController.swift in Sources */,
+				0E6848C421E5DA3900DCC6F3 /* ChecklistItem.swift in Sources */,
+				0AD27F9521EE123C00EC0AD2 /* GameScene.swift in Sources */,
+				0E8EDB3021EF179000C1E5BD /* RewardsView.swift in Sources */,
+				0E8EDB3221EF276C00C1E5BD /* EndGame.swift in Sources */,
+				0E55D78921E32CEA00E27625 /* ViewController.swift in Sources */,
+				0E6848C221E5C9ED00DCC6F3 /* TaskTableViewController.swift in Sources */,
+				0E55D78721E32CEA00E27625 /* AppDelegate.swift in Sources */,
+				0A49289C21ECC01C001F1342 /* tasktableviewcell.swift in Sources */,
+				0E8EDB2D21EF145F00C1E5BD /* myView.swift in Sources */,
+				0AE254D921EF87DE006F9003 /* JumpViewController.swift in Sources */,
+				0AE254D821EF87DE006F9003 /* JumpScene.swift in Sources */,
+				0E8EDB2E21EF145F00C1E5BD /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E55D78A21E32CEA00E27625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E55D78B21E32CEA00E27625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E55D79221E32CEB00E27625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E55D79321E32CEB00E27625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E55D79621E32CEB00E27625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E55D79721E32CEB00E27625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E55D79921E32CEB00E27625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TXR5LLZ98;
+				INFOPLIST_FILE = Motica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mo.Motica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E55D79A21E32CEB00E27625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TXR5LLZ98;
+				INFOPLIST_FILE = Motica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mo.Motica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E55D77E21E32CEA00E27625 /* Build configuration list for PBXProject "Motica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E55D79621E32CEB00E27625 /* Debug */,
+				0E55D79721E32CEB00E27625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E55D79821E32CEB00E27625 /* Build configuration list for PBXNativeTarget "Motica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E55D79921E32CEB00E27625 /* Debug */,
+				0E55D79A21E32CEB00E27625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0E55D78D21E32CEA00E27625 /* Motica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0E55D78E21E32CEA00E27625 /* Motica.xcdatamodel */,
+			);
+			currentVersion = 0E55D78E21E32CEA00E27625 /* Motica.xcdatamodel */;
+			path = Motica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0E55D77B21E32CEA00E27625 /* Project object */;
+}
